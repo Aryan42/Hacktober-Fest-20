@@ -1,0 +1,102 @@
+To open Powershell in the folder:
+
+Click Shift + Right CLick and then select Open Powershell here.
+
+
+
+
+
+To make a virtual environment :
+
+pip install virtualenv
+
+
+
+Then enter name:
+
+virtualenv virtualenv_name
+
+
+
+To Activate:
+
+ .\virtualenv_name\Scripts\activate
+
+
+
+To Deactivate:
+
+(virtualenv_name) deactivate
+
+
+
+To get requirements.txt:
+
+pip freeze  >  requirement.txt
+
+This will make a notepad file.
+
+
+
+To Install a specific version:
+
+pip install package_name  = =  version
+
+
+
+If you want to install the whole requirements.txt file:
+
+pip install -r .\requirements.txt
+
+
+To open Powershell in the folder:
+
+Click Shift + Right CLick and then select Open Powershell here.
+
+
+
+
+
+To make a virtual environment :
+
+pip install virtualenv
+
+
+
+Then enter name:
+
+virtualenv virtualenv_name
+
+
+
+To Activate:
+
+ .\virtualenv_name\Scripts\activate
+
+
+
+To Deactivate:
+
+(virtualenv_name) deactivate
+
+
+
+To get requirements.txt:
+
+pip freeze  >  requirement.txt
+
+This will make a notepad file.
+
+
+
+To Install a specific version:
+
+pip install package_name  = =  version
+
+
+
+If you want to install the whole requirements.txt file:
+
+pip install -r .\requirements.txt
+
+

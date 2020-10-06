@@ -1,6 +1,6 @@
 def printary(string):
 
-    return f"Ye string harry ko de de thakur {string}"
+    return f"Give this string to harry thakur {string}"
 
 def add(num1, num2):
 
@@ -22,3 +22,15 @@ if __name__ == "__main__":
 
     #Logic Statement
     
+#hacktober Fest
+
+
+
+ l1= {"Bhendi", "Laddu", "Manchurian"}
+
+Enumerate Function
+
+for index , item in enumerate(l1):
+    if index%2==0:
+        print(f"Edith Please Buy {item}")
+        
