@@ -1,0 +1,75 @@
+#F-String is used to fast our work and add values and all to a string
+
+ me= "Aryan"
+
+a1= 3
+
+a= f"This Is me {me} {a1}"
+print(a)
+
+ # def function_name_print(a, b, c, d, e):
+
+#     print(a, b, c, d, e)
+
+def funargs(normal, *argsrohan, **kwargsbala):
+    print(normal)
+    for item in argsrohan:
+        print(item)
+    print("\nNow I would Like to introduce some of our heroes")
+    for key, value in kwargsbala.items():
+        print(f"{key} is a {value}")
+
+
+# function_name_print("Harry", "Rohan", "Skillf", "Hammad", "Shivam")
+
+har = ["Harry", "Rohan", "Skillf", "Hammad",
+       "Shivam", "The programmer"]
+normal = "I am a normal Argument and the students are:"
+kw = {"Rohan": "Monitor", "Harry": "Fitness Instructor",
+      "The Programmer": "Coordinator", "Shivam": "Cook"}
+funargs(normal, *har, **kw)
+
+ # def function_name_print(a, b, c, d, e):
+
+#     print(a, b, c, d, e)
+
+def funargs(normal, *argsrohan, **kwargsbala):
+    print(normal)
+    for item in argsrohan:
+        print(item)
+    print("\nNow I would Like to introduce some of our heroes")
+    for key, value in kwargsbala.items():
+        print(f"{key} is a {value}")
+
+
+# function_name_print("Harry", "Rohan", "Skillf", "Hammad", "Shivam")
+
+har = ["Harry", "Rohan", "Skillf", "Hammad",
+       "Shivam", "The programmer"]
+normal = "I am a normal Argument and the students are:"
+kw = {"Rohan": "Monitor", "Harry": "Fitness Instructor",
+      "The Programmer": "Coordinator", "Shivam": "Cook"}
+funargs(normal, *har, **kw)
+
+
+Factorial Numbers:
+
+# Factorial Numbers are n* (n-1) like:
+
+#4!= 4*3*2*1
+
+#!1 = 1
+
+#0! = 1
+
+ def factorial(n):
+
+    if n==0 or n==1:
+        return 1
+    return n * factorial(n-1)
+print("Enter The Number")
+fac = factorial( int(input()))
+print(fac)
+
+
+
