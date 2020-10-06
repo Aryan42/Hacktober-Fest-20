@@ -1,0 +1,24 @@
+def printary(string):
+
+    return f"Ye string harry ko de de thakur {string}"
+
+def add(num1, num2):
+
+    return num1 + num2 + 5
+
+print("aand the name is", __name__)
+
+if __name__ == '__main__':
+
+    print(printary("Harry1"))
+
+    o = add(4, 6)
+
+    print(o)
+
+# For logic statements and the syntax is
+
+if __name__ == "__main__":
+
+    #Logic Statement
+    
